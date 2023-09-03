@@ -1,0 +1,4 @@
+- Averange age of customers based on the Martial Status
+- Averange age of customers based on the gender
+- Store name with the most quantity
+- Product name with the most total amount

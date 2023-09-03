@@ -30,11 +30,10 @@ warnings.filterwarnings('ignore')
 
 """# Read Data"""
 
-df_customer = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/VIX Rakamin/datasets/Case Study - Customer.csv', delimiter=';')
-df_product = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/VIX Rakamin/datasets/Case Study - Product.csv', delimiter=';')
-df_store = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/VIX Rakamin/datasets/Case Study - Store.csv', delimiter=';')
-df_transaction = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/VIX Rakamin/datasets/Case Study - Transaction.csv', delimiter=';')
-
+df_customer = pd.read_csv('/content/Case Study - Customer.csv', delimiter=';')
+df_product = pd.read_csv('/content/Case Study - Product.csv', delimiter=';')
+df_store = pd.read_csv('/content/Case Study - Store.csv', delimiter=';')
+df_transaction = pd.read_csv('/content/Case Study - Transaction.csv', delimiter=';')
 df_customer.shape, df_product.shape, df_store.shape, df_transaction.shape
 
 """# Data Cleaning"""
